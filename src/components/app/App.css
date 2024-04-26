@@ -1,0 +1,16 @@
+.cards-container {
+  width: 634px;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.card-container:first-child {
+  margin-right: 30px;
+}
+
+.card-container {
+  margin-bottom: 30px;
+}
