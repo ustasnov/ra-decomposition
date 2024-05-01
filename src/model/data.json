@@ -1,0 +1,129 @@
+{
+  "news": {
+    "listtype": "news",
+    "title": "Сейчас в СМИ",
+    "date": "31 июля, среда 02:32",
+    "menu": {
+      "menutype": "newsmenu",
+      "items": [
+        {
+          "id": 1,
+          "menutype": "newsmenu",
+          "title": "в Германии"
+        },
+        {
+          "id": 2,
+          "menutype": "newsmenu",
+          "title": "Рекомендуем"
+        }
+      ]
+    },
+    "data": [
+      {
+        "id": 1,
+        "wrappertype": "news",
+        "icon": "https://avatars.dzeninfra.ru/get-ynews-logo/135513/1002-1544074003449-square/logo-square",
+        "title": "Путин упростил получение автомобильных номеров"
+      },
+      {
+        "id": 2,
+        "wrappertype": "news",
+        "icon": "https://avatars.dzeninfra.ru/get-ynews-logo/135513/1002-1544074003449-square/logo-square",
+        "title": "В команде Зеленского раскрыли план реформ на Украине"
+      },
+      {
+        "id": 3,
+        "wrappertype": "news",
+        "icon": "https://avatars.dzeninfra.ru/get-ynews-logo/26056/1116-1478692904205-square/logo-square",
+        "title": "\"Турпомощь\" прокомментировала гибель десятков россиян в Анталье"
+      },
+      {
+        "id": 4,
+        "wrappertype": "news",
+        "icon": "https://avatars.dzeninfra.ru/get-ynews-logo/271828/1048-1697109461569-square/logo-square",
+        "title": "Суд закрыл дело Демпартии США против России"
+      },
+      {
+        "id": 5,
+        "wrappertype": "news",
+        "icon": "https://avatars.dzeninfra.ru/get-ynews-logo/41096/1040-1640775230584-square/logo-square",
+        "title": "На Украине призвали создать ракеты для удара по Москве"
+      }
+    ]
+  },
+  "newscard": {
+    "id": 1,
+    "wrappertype": "newscard",
+    "icon": "mistakes.png",
+    "title": "Работа над ошибками",
+    "content": "Смотрите на Яндексе и запоминайте"
+  },
+  "exchangerates": {
+    "menutype": "ratesmenu",
+    "items": [
+      {
+        "id": 1,
+        "menutype": "ratesmenu",
+        "title": "USD MOEX 63,52",
+        "content": "+0,09"
+      },
+      {
+        "id": 2,
+        "menutype": "ratesmenu",
+        "title": "EUR MOEX 70,86",
+        "content": "+0,14"
+      },
+      {
+        "id": 3,
+        "menutype": "ratesmenu",
+        "title": "НЕФТЬ 64,90",
+        "content": "+1,16%"
+      }
+    ]
+  },
+  "mainmenu": {
+    "menutype": "mainmenu",
+    "items": [
+      {
+        "id": 1,
+        "menutype": "mainmenu",
+        "title": "Видео"
+      },
+      {
+        "id": 2,
+        "menutype": "mainmenu",
+        "title": "Картинки"
+      },
+      {
+        "id": 3,
+        "menutype": "mainmenu",
+        "title": "Новости"
+      },
+      {
+        "id": 4,
+        "menutype": "mainmenu",
+        "title": "Карты"
+      },
+      {
+        "id": 5,
+        "menutype": "mainmenu",
+        "title": "Макет"
+      },
+      {
+        "id": 6,
+        "menutype": "mainmenu",
+        "title": "Переводчик"
+      },
+      {
+        "id": 7,
+        "menutype": "mainmenu",
+        "title": "Эфир"
+      },
+      {
+        "id": 8,
+        "menutype": "mainmenu",
+        "title": "ещё"
+      }
+    ]
+  }
+}

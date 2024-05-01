@@ -1,0 +1,33 @@
+.menu-item-link {
+  display: flex;
+  color: rgb(113, 159, 219);
+  text-decoration: none;
+}
+
+.menu-item-newsmenu {
+  margin-left: 10px;
+}
+
+.menu-item-ratesmenu {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.menu-item-title-ratesmenu {
+  color: dimgray;
+  font-weight: 700;
+}
+
+.menu-item-content-ratesmenu {
+  margin-left: 5px;
+  color: rgb(165, 165, 165);
+}
+
+.menu-item-mainmenu {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.menu-item-link-mainmenu {
+  color: rgb(23, 72, 171);
+}

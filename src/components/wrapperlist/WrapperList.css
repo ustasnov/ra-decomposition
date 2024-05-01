@@ -1,0 +1,15 @@
+.wrapper-list-header {
+  margin: 0 0 10px 25px;
+}
+
+.wrapper-list-title-news {
+  display: flex;
+}
+
+.newsdate-link {
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  margin-left: 10px;
+  font-size: 10pt;
+  font-weight: 400;
+}

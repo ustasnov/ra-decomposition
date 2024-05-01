@@ -1,0 +1,46 @@
+.wrapper-title {
+  color: rgb(14, 66, 165);
+}
+
+.wrapper-body-news {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-title-news {
+  font-size: 11pt;
+  color: rgb(80, 80, 80);
+}
+
+.wrapper-icon-news {
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  margin-right: 5px;
+}
+
+.wrapper-body-newscard {
+  margin-top: 35px;
+}
+
+.wrapper-icon-newscard {
+  width: 80px;
+  height: 80px;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.wrapper-title-newscard {
+  font-size: 14pt;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper-content-newscard {
+  font-size: 11pt;
+  color: rgb(80, 80, 80);
+}

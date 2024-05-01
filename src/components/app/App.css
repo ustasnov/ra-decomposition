@@ -1,6 +1,23 @@
 .tidings-container {
-  width: 800px;
+  width: 830px;
   display: flex;
   flex-direction: column;
-  margin: 40px auto;
+  margin: 40px auto 0;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allrates {
+  color: lightgray;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.mainmenu {
+  width: 830px;
+  padding: 0 0 0 50px;
+  margin: 15px auto 10px;
 }

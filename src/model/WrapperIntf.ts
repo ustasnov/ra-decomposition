@@ -1,5 +1,6 @@
-export interface WraperIntf {
-  wrapertype?: string;
+export interface WrapperIntf {
+  id: number,
+  wrappertype?: string;
   icon?: string;
   title?: string;
   content?: string;
