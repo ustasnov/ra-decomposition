@@ -125,5 +125,8 @@
         "title": "ещё"
       }
     ]
+  },
+  "search": {
+    "logo": "logo.png"
   }
 }

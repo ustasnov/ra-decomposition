@@ -1,0 +1,36 @@
+.logo {
+  width: 120px;
+  height: 50px;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  height: 40px;
+  width: 685px;
+  padding: 0 10px;
+  font-size: 14pt;
+  border: 2px solid orange;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  
+}
+
+.submit-btn {
+  height: 40px;
+  border: 2px solid orange;
+  background-color: orange;
+  font-size: 16px;
+  padding: 0 20px;
+  cursor: pointer;
+}
