@@ -1,0 +1,13 @@
+.banner {
+  margin-left: 210px;
+}
+
+.banner-figure {
+  width: 685px;
+  margin: 20px 0 30px;
+  background-color: #f0f0f0;
+}
+
+.banner-img {
+  width: 100%
+}

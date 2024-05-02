@@ -1,3 +1,8 @@
+.header {
+  width: 1200px;
+  margin: 10px auto;
+}
+
 .tidings-container {
   width: 830px;
   display: flex;

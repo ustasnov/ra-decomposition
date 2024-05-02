@@ -44,3 +44,18 @@
   font-size: 11pt;
   color: rgb(80, 80, 80);
 }
+
+.wrapper-body-searchexample {
+  display: flex;
+}
+
+.wrapper-title-searchexample {
+  font-size: 11pt;
+  color: rgb(20, 20, 20);
+}
+
+.wrapper-content-searchexample {
+  margin-left: 3px;
+  font-size: 11pt;
+  color: rgb(165, 165, 165);
+}

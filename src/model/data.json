@@ -127,6 +127,16 @@
     ]
   },
   "search": {
-    "logo": "logo.png"
+    "logo": "logo.png",
+    "example": {
+      "id": 1,
+      "wrappertype": "searchexample",
+      "title": "Найдется всё. Например,",
+      "content": "фаза луны сегодня"
+    }
+  },
+  "banner": {
+    "img": "banner.png",
+    "alt": "Форсаж. Хоббс и Шоу. Трейлер"
   }
 }
