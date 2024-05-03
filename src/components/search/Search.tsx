@@ -1,3 +1,7 @@
+/**
+ * Компонент для создания разметки строки поиска.
+ */
+
 import Wrapper from "../wrapper/Wrapper";
 import { WrapperIntf } from "../../model/WrapperIntf";
 import { SearchIntf } from "../../model/SearchIntf";

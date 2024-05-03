@@ -1,3 +1,7 @@
+/**
+ * Компонент для создания разметки баннера.
+ */
+
 import { BannerIntf } from "../../model/BannerIntf";
 import "./Banner.css";
 

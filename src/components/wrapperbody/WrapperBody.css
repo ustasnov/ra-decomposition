@@ -1,5 +1,18 @@
+.wrapper-body {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
 .wrapper-title {
-  color: rgb(14, 66, 165);
+  font-size: 11pt;
+  color: rgb(20, 20, 20);
+}
+
+.wrapper-content {
+  margin-left: 10px;
+  font-size: 11pt;
+  color: rgb(165, 165, 165);
 }
 
 .wrapper-body-news {
@@ -12,7 +25,8 @@
   color: rgb(20, 20, 20);
 }
 
-.wrapper-icon-news {
+.wrapper-icon-news,
+.wrapper-icon-onair {
   width: 15px;
   height: 15px;
   content: "";
@@ -22,6 +36,7 @@
 }
 
 .wrapper-body-newscard {
+  display: block;
   margin-top: 30px;
 }
 
@@ -38,14 +53,17 @@
   font-size: 14pt;
   font-weight: 700;
   margin-bottom: 10px;
+  color: rgb(14, 66, 165);
 }
 
 .wrapper-content-newscard {
+  margin-left: 0;
   font-size: 11pt;
-  color: rgb(80, 80, 80);
+  color: rgb(60, 60, 60);
 }
 
 .wrapper-body-searchexample {
+  margin-top: 5px;
   display: flex;
 }
 
@@ -58,4 +76,37 @@
   margin-left: 3px;
   font-size: 11pt;
   color: rgb(165, 165, 165);
+}
+
+.wrapper-body-weather {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-icon-weather {
+  width: 40px;
+  height: 40px;
+  content: "";
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper-title-weather {
+  margin: 0 10px;
+  font-size: 20pt;
+}
+
+.wrapper-content-weather {
+  font-size: 11pt;
+  width: 76px;
+  color: rgb(60, 60, 60);
+}
+
+.wrapper-title-visited {
+  font-weight: 700;
+}
+
+.wrapper-content-visited {
+  margin-left: 5px;
+  color: rgb(60, 60, 60);
 }

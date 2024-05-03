@@ -5,7 +5,7 @@
 
 .logo {
   width: 120px;
-  height: 50px;
+  height: 45px;
   content: "";
   background-size: cover;
   background-position: center;
@@ -17,7 +17,7 @@
   width: 685px;
   padding: 0 10px;
   font-size: 14pt;
-  border: 2px solid orange;
+  border: 2px solid rgb(254, 210, 75);
 }
 
 .search-form {
@@ -28,8 +28,8 @@
 
 .submit-btn {
   height: 40px;
-  border: 2px solid orange;
-  background-color: orange;
+  border: 2px solid rgb(254, 210, 75);
+  background-color: rgb(254, 210, 75);
   font-size: 16px;
   padding: 0 20px;
   cursor: pointer;

@@ -1,3 +1,7 @@
+/**
+ * Компонент для создания разметки заголовка списка универсальных компонентов.
+ */
+
 import { WrapperListIntf } from "../../model/WrapperListIntf";
 import "./WrapperListTitle.css";
 

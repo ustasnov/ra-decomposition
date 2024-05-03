@@ -1,5 +1,6 @@
 {
   "news": {
+    "id": 1,
     "listtype": "news",
     "title": "Сейчас в СМИ",
     "date": "31 июля, среда 02:32",
@@ -138,5 +139,112 @@
   "banner": {
     "img": "banner.png",
     "alt": "Форсаж. Хоббс и Шоу. Трейлер"
-  }
+  },
+  "main": [
+    {
+      "id": 1,
+      "listtype": "weather",
+      "title": "Погода",
+      "data": [
+        {
+          "id": 1,
+          "wrappertype": "weather",
+          "icon": "rain.png",
+          "title": "+17º",
+          "content": "Утром +17, днём +20"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "listtype": "visited",
+      "title": "Посещаемое",
+      "data": [
+        {
+          "id": 1,
+          "wrappertype": "visited",
+          "title": "Недвижимость",
+          "content": "- о сталинках"
+        },
+        {
+          "id": 2,
+          "wrappertype": "visited",
+          "title": "Макет",
+          "content": "- люстры и светильники"
+        },
+        {
+          "id": 3,
+          "wrappertype": "visited",
+          "title": "Авто.ru",
+          "content": "- привод 4х4 до 500 000"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "listtype": "map",
+      "title": "Карта Германии",
+      "data": [
+        {
+          "id": 1,
+          "wrappertype": "map",
+          "title": "Расписания"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "listtype": "tvprogram",
+      "title": "Телепрограмма",
+      "icon": "onair.png",
+      "data": [
+        {
+          "id": 1,
+          "wrappertype": "tvprogram",
+          "title": "02:00 ТНТ.Best",
+          "content": "ТНТ International"
+        },
+        {
+          "id": 2,
+          "wrappertype": "tvprogram",
+          "title": "02:15 Джинглики",
+          "content": "Карусель INT"
+        },
+        {
+          "id": 3,
+          "wrappertype": "tvprogram",
+          "title": "02:25 Наедине со всеми",
+          "content": "Первый"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "listtype": "onair",
+      "title": "Эфир",
+      "data": [
+        {
+          "id": 1,
+          "wrappertype": "onair",
+          "icon": "tv.png",
+          "title": "Управление как искусство",
+          "content": "Успех"
+        },
+        {
+          "id": 2,
+          "wrappertype": "onair",
+          "icon": "tv.png",
+          "title": "Ночь. Мир в это время",
+          "content": "earthTV"
+        },
+        {
+          "id": 3,
+          "wrappertype": "onair",
+          "icon": "tv.png",
+          "title": "Андрей Возн...",
+          "content": "Совершенно секретно"
+        }
+      ]
+    }
+  ]
 }

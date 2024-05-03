@@ -1,3 +1,7 @@
+/**
+ * Компонент для создания разметки страницы.
+ */
+
 import WrapperList from "../wrapperlist/WrapperList";
 import Wrapper from "../wrapper/Wrapper";
 import Menu from "../menu/Menu";
@@ -19,6 +23,7 @@ function App() {
   const searchlogo = data.search.logo;
   const searchExample = data.search.example as WrapperIntf;
   const banner = data.banner as BannerIntf;
+  const main: WrapperListIntf[] = data.main;
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -27,26 +32,33 @@ function App() {
   }
 
   return (
-    <header className="header">
-      <div className="tidings-container">
-        <div className="news-container">
-          <WrapperList {...newsProps}></WrapperList>
-          <Wrapper key={newsCard.id} {...newsCard}></Wrapper>
+    <>
+      <header className="header">
+        <div className="tidings-container">
+          <div className="news-container">
+            <WrapperList {...newsProps}></WrapperList>
+            <Wrapper key={newsCard.id} {...newsCard}></Wrapper>
+          </div>
+          <div className="exchange-rates-container">
+            <Menu {...exchangerates}>
+              <a className="allrates" href="#">...</a>
+            </Menu>
+          </div>
         </div>
-        <div className="exchange-rates-container">
-          <Menu {...exchangerates}>
-            <a className="allrates" href="#">...</a>
-          </Menu>
+        <div className="mainmenu">
+          <Menu {...mainmenu}></Menu>
         </div>
-      </div>
-      <div className="mainmenu">
-        <Menu {...mainmenu}></Menu>
-      </div>
-      <div className="search-container">
-        <Search logo={searchlogo} onSubmitHandler={onSubmit} example={searchExample}></Search>
-      </div>
-      <Banner {...banner}></Banner>
-    </header>
+        <div className="search-container">
+          <Search logo={searchlogo} onSubmitHandler={onSubmit} example={searchExample}></Search>
+        </div>
+        <Banner {...banner}></Banner>
+      </header>
+      <main className="main-container">
+        <div className="main">
+          {main.map((listProps) => <WrapperList key={listProps.id} {...listProps}></WrapperList>)}
+        </div>
+      </main>
+    </>
   )
 }
 

@@ -1,3 +1,7 @@
+/**
+ * Компонент для создания разметки пункта меню.
+ */
+
 import { MenuItemIntf } from "../../model/MenuItemIntf";
 import "./MenuItem.css";
 

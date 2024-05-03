@@ -1,6 +1,6 @@
 .header {
   width: 1200px;
-  margin: 10px auto;
+  margin: 10px auto 0;
 }
 
 .tidings-container {
@@ -30,4 +30,18 @@
 .search-container {
   width: 1050px;
   margin: 0 auto;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 10px auto 0;
+}
+
+.main {
+  width: 830px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 210px;
 }

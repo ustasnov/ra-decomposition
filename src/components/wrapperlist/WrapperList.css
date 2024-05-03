@@ -1,4 +1,16 @@
+.wrapper-list {
+  margin-bottom: 20px;
+}
+
+.wrapper-list-news {
+  margin-bottom: 10px;
+}
+
 .wrapper-list-header {
+  margin: 0 0 10px 0;
+}
+
+.wrapper-list-header-news {
   margin: 0 0 10px 25px;
 }
 
@@ -12,4 +24,13 @@
   margin-left: 10px;
   font-size: 10pt;
   font-weight: 400;
+}
+
+.list-icon {
+  width: 70px;
+  height: 25px;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
 }

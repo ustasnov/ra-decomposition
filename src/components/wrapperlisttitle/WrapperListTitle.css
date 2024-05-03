@@ -6,3 +6,12 @@
   color: rgb(14, 66, 165);
   text-decoration: none;
 }
+
+.wrapper-list-title-tvprogram {
+  display: flex;
+  align-items: center;
+}
+
+.list-icon-container {
+  margin-left: 7px;
+}
